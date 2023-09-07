@@ -23,10 +23,9 @@ We welcome contributions from the CSSL community, including students, faculty, a
 - Start contributing to create an amazing web page!
 
 
-For questions or inquiries, you can contact the project maintainers at [email@example.com](mailto:email@example.com).
+For questions or inquiries, you can contact the project maintainers at [contact](mailto:38-bis-0031@kdu.ac.lk).
 
 Join us in building a web presence that showcases the tech-savvy spirit of CSSL's GenZ chapter at Kotelawala Defence University Society of Sri Lanka. Let's code, collaborate, and innovate together! 🤝
 
 ---
 
-Feel free to adapt this description to fit your project's specific details and style. Don't forget to replace `email@example.com` with the actual contact information for your project maintainers.
