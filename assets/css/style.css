@@ -3532,7 +3532,7 @@ li {
     position: relative;
     display: block;
     float: left;
-    margin-left: 70px;
+    margin-left: 0px;
 }
 
 .footer_widget__newsletter {}
