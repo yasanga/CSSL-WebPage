@@ -1302,12 +1302,17 @@ li {
 }
 
 .banner-one .content-box .top-title h2 {
-    font-size: 80px;
+    font-size: 70px;
     color: #ffffff;
     font-weight: 700;
     line-height: 80px;
 }
-
+.banner-one .content-box .top-title h3 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 80px;
+}
 .banner_one_bottom_icon_text {
     display: flex;
     align-items: center;
@@ -3532,7 +3537,7 @@ li {
     position: relative;
     display: block;
     float: left;
-    margin-left: 0px;
+    margin-left: 70px;
 }
 
 .footer_widget__newsletter {}
