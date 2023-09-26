@@ -515,6 +515,22 @@ li {
 
 }
 
+.header-logo1 {
+    max-width: 100px; /* Adjust the max-width to fit your design */
+    height: auto;
+    vertical-align: middle; /* Align the logo vertically with the menu items */
+    margin-right: 200px; /* Add some spacing between the logo and the menu */
+}
+
+@media (max-width: 1200px) {
+    /* Hide the logo on mobile views */
+    .header-logo1 {
+        display: none;
+    }
+}
+
+
+
 .header_top_one {
     position: relative;
     display: block;
@@ -3190,7 +3206,7 @@ li {
 .blog_one_right:before {
     position: absolute;
     top: -120px;
-    right: -10000000px;
+    right: -70%;
     bottom: -60px;
     left: 200px;
     content: "";
