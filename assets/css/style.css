@@ -46,13 +46,13 @@ font-family: 'Inter', sans-serif;
 
 :root {
     --thm-font: 'Inter', sans-serif;
-    --thm-base: #4c7ce3;
+    --thm-base: #03396c;
     --thm-base-rgb: 76, 124, 227;
-    --thm-primary: #62cec5;
+    --thm-primary: #005b96;
     --thm-primary-rgb: 98, 206, 197;
     --thm-black: #282f44;
     --thm-black-rgb: 40, 47, 68;
-    --thm-gray: #717580;
+    --thm-gray: #566875;
     --border-radius: 4px;
 }
 
@@ -133,6 +133,13 @@ li {
     font-weight: 700;
 }
 
+.header-logo {
+    max-width: 150px;
+    max-height: fit-content; /* Adjust the max-width to fit your design */
+    height: auto;
+    vertical-align: middle; /* Align the logo vertically with the menu items */
+    margin-right: 525px; /* Add some spacing between the logo and the menu */
+}
 
 .thm-btn {
     display: inline-block;
@@ -1099,8 +1106,8 @@ li {
 
 .main-nav__header-one.two .stricked-menu .main-nav__right_one .icon_cart_box,
 .main-nav__header-one.two .stricked-menu .main-nav__right_one .icon_search_box {
-    padding-top: 25.5px;
-    padding-bottom: 25.5px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .main_nav_header_two_logo {
@@ -1302,17 +1309,12 @@ li {
 }
 
 .banner-one .content-box .top-title h2 {
-    font-size: 70px;
+    font-size: 80px;
     color: #ffffff;
     font-weight: 700;
     line-height: 80px;
 }
-.banner-one .content-box .top-title h3 {
-    font-size: 40px;
-    color: #ffffff;
-    font-weight: 700;
-    line-height: 80px;
-}
+
 .banner_one_bottom_icon_text {
     display: flex;
     align-items: center;
@@ -2957,7 +2959,7 @@ li {
     position: relative;
     display: block;
     border-radius: var(--border-radius);
-    background-color: rgb(98, 206, 197);
+    background-color: rgb(0,91,150);
     box-shadow: 0px 10px 60px 0px rgb(0, 0, 0, 0.10);
     text-align: center;
     padding: 100px 0 110px;
@@ -3190,7 +3192,7 @@ li {
 .blog_one_right:before {
     position: absolute;
     top: -120px;
-    right: -10000000px;
+    right: -auto;
     bottom: -60px;
     left: 200px;
     content: "";
@@ -4968,7 +4970,7 @@ li {
 .page-header {
     position: relative;
     display: block;
-    padding: 127px 0 133px;
+    padding: 100px 0 75px;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -6155,6 +6157,7 @@ li {
 .members_details_img {
     position: relative;
     display: block;
+    padding-bottom: 30px;
 }
 
 .members_details_img img {
