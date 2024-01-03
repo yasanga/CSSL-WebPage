@@ -2938,12 +2938,12 @@ li {
 
 #testimonials-one__thumb img {
     width: 100%;
-    -webkit-transform: scale(0.65);
-    transform: scale(0.65);
-    -webkit-transform-origin: center center;
-    transform-origin: center center;
-    -webkit-transition: 500ms ease;
-    transition: 500ms ease;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    -webkit-transition: 500ms ease-out;
+    transition: 500ms ease-out;
     cursor: pointer;
     border-radius: 50%;
     margin-bottom: 30px;
