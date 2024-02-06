@@ -267,6 +267,13 @@ li {
 
 /* owl dots style */
 
+.footer-copyright {
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+
 .thm__owl-carousel .owl-dots {
     margin-top: 20px;
 }
@@ -764,7 +771,7 @@ li {
 }
 
 .main-nav__main-navigation .main-nav__navigation-box>li+li {
-    margin-left: 34px;
+    margin-left: 22px;
 }
 
 .main-nav__main-navigation .main-nav__navigation-box>li {
@@ -4682,6 +4689,12 @@ li {
     color: #ffffff;
 }
 
+
+.copyright{
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
 /*--------------------------------------------------------------
 # Team One
 --------------------------------------------------------------*/
