@@ -53,6 +53,7 @@ font-family: 'Inter', sans-serif;
     --thm-black: #282f44;
     --thm-black-rgb: 40, 47, 68;
     --thm-gray: #566875;
+    --thm-white: #d2d3da;
     --border-radius: 4px;
 }
 
@@ -62,6 +63,13 @@ body {
     font-size: 16px;
     line-height: 26px;
 }
+
+    .copyright-text {
+        color: white; /* Set the text color to white */
+        text-align: center; /* Center align the text */
+        margin-top: 20px; /* Add some top margin for spacing */
+    }
+
 
 button:focus {
     outline: none;
