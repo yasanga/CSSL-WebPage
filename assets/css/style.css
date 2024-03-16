@@ -81,7 +81,17 @@ a:focus,
 a:visited {
     text-decoration: none;
 }
+.image_link_section {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+    margin-bottom: 50px; /* Adjust as needed */
+    transition: transform 0.5s, opacity 0.5s;
+}
 
+.image_link_section:hover {
+    transform: translateY(-5px); /* Adjust as needed */
+    opacity: 0.9; /* Adjust as needed */
+}
 h1,
 h2,
 h3,
@@ -6214,10 +6224,10 @@ li {
 }
 
 .members_details_right_text p {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0;
-    font-weight: 400;
-    line-height: 38px;
+    line-height: 1.6px;
+        line-height: 1.6;
 }
 
 .companies_contact_info.members_details_contact_info {
