@@ -4717,6 +4717,7 @@ li {
 # Team One
 --------------------------------------------------------------*/
 .team_one {
+    padding-top: 70px;
     position: relative;
     display: block;
     padding-bottom: 56px;
